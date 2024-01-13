@@ -20,7 +20,6 @@ plt.scatter(x, y, s=sizes)
 
 plt.xlabel('Region in the Philippines')
 plt.ylabel('Poverty Incidence')
-plt.title('Basic Bubble Chart')
 
 plt.xticks(rotation=90)
 plt.show()
