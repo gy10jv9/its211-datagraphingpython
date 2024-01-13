@@ -2,11 +2,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-a = [1, 3, 5, 7]
-b = [11, 2, 4, 19]
+povData_reg3Bataan = pd.read_csv('povData-car-abra.csv')
+
+a = povData_reg3Bataan["Municipality/City"].to_numpy()
+b = povData_reg3Bataan["Poverty Incidence"].to_numpy()
 plt.bar(a, b)
 
-c = [1, 3, 2, 1]
-plt.errorbar(a, b, yerr=c, fmt='o', color='r')
+c = povData_reg3Bataan["Standard Error (SE)"].to_numpy()
 
+plt.errorbar(a, b, yerr=c, fmt='o', color='r')
+plt.xticks(rotation=90)
 plt.show()

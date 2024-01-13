@@ -2,18 +2,25 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-# Create data
-x = np.array([1, 2, 3, 4, 5])
-y = np.array([5, 4, 3, 2, 1])
-sizes = np.array([20, 40, 60, 80, 100])
+carAbra = pd.read_csv('povData-car-abra.csv')
+ncr1stDist = pd.read_csv('povData-ncr-1stDist.csv')
+reg1IlocNorte = pd.read_csv('povData-reg1-ilocNorte.csv')
+reg2Batanes = pd.read_csv('povData-reg2-batanes.csv')
+reg3Bataan = pd.read_csv('povData-reg3-bataan.csv')
+povData = pd.read_csv('povertyestimatesph-copy.csv')
 
-# Create a bubble chart
+def average(num):
+    return sum(num) / len(num)
+
+x = povData["Region"].to_numpy()
+y = povData["Poverty Incidence"].to_numpy()
+sizes = povData["Poverty Incidence"].to_numpy()
+
 plt.scatter(x, y, s=sizes)
 
-# Label the axes and title
-plt.xlabel('X')
-plt.ylabel('Y')
+plt.xlabel('Region in the Philippines')
+plt.ylabel('Poverty Incidence')
 plt.title('Basic Bubble Chart')
 
-# Display the plot
+plt.xticks(rotation=90)
 plt.show()

@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e104ef6d-cf4d-4fd8-a5f1-77f3816d0944" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/povData-reg2-batanes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/povData-reg3-bataan.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gas_prices.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-areaPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-reg2-batanes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-pie.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-reg3-bataan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-reg3-bataan.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-reg3-bataan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph-summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-summary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ahF3iRDYNA6uxaR9Y1LkuVB2Zl" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "wip-graphs",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;wip-graphs&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
